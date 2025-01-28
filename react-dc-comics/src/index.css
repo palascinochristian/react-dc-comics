@@ -25,6 +25,15 @@ body {
   height: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-grow: 1;
+}
+
 /*---------------
      HEADER
 ---------------*/
@@ -69,7 +78,32 @@ main h1 {
 /*---------------
       ICONS
 ---------------*/
+.icons {
+  background-color: #0282f9;
+  padding: 3.125rem 0;
+}
 
+.icons .col {
+  width: calc(100% / 5);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.col img {
+  width: 25%;
+  height: auto;
+}
+
+.icons .col a {
+  padding: 0.875rem;
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 500;
+}
 /*---------------
       FOOTER
 ---------------*/
