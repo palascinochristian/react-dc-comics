@@ -1,0 +1,68 @@
+/*---------------
+      RESET 
+---------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------
+     GENERAL
+---------------*/
+body {
+  font-family: "Open Sans", serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---------------
+     HEADER
+---------------*/
+header {
+  background-color: #fff;
+  color: #000;
+  margin: 1.25rem 0 1.25rem 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  letter-spacing: -0.0625rem;
+}
+
+header nav ul a {
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*---------------
+      MAIN
+---------------*/
+
+/*---------------
+      ICONS
+---------------*/
+
+/*---------------
+      FOOTER
+---------------*/
