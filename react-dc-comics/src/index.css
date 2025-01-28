@@ -31,7 +31,7 @@ body {
 header {
   background-color: #fff;
   color: #000;
-  margin: 1.25rem 0 1.25rem 0;
+  margin: 1.25rem 0 0.625rem 0;
 }
 
 header nav {
@@ -42,7 +42,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  gap: 2.5rem;
+  gap: 2.2rem;
   list-style: none;
   letter-spacing: -0.0625rem;
 }
@@ -58,7 +58,14 @@ header nav ul a {
 /*---------------
       MAIN
 ---------------*/
-
+main {
+  background-color: #1c1c1c;
+  padding: 3.125rem 0.625rem;
+}
+main h1 {
+  color: #fff;
+  font-size: 30px;
+}
 /*---------------
       ICONS
 ---------------*/
