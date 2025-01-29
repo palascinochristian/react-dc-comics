@@ -166,3 +166,24 @@ button {
 .footer-bottom .row {
   padding: 2.5rem 0 2.5rem 0;
 }
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+}
+
+.follow {
+  color: #0282f9;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.11rem;
+  word-spacing: 0.125rem;
+}
+
+.footer-bottom .right-col {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: flex-end;
+}
