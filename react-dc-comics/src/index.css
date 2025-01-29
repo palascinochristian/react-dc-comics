@@ -58,7 +58,7 @@ header nav ul {
 
 header nav ul a {
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
   color: inherit;
@@ -107,3 +107,62 @@ main h1 {
 /*---------------
       FOOTER
 ---------------*/
+
+footer {
+  color: #fff;
+}
+
+.footer-top {
+  background-image: url("../imgs/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  overflow: hidden;
+}
+
+footer ul {
+  list-style: none;
+  padding-bottom: 1.15rem;
+}
+
+footer a {
+  text-decoration: none;
+  line-height: 1.5;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.8125rem;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  z-index: 2;
+  margin-top: 0;
+}
+
+.left-col .col {
+  width: calc(100% / 3);
+}
+
+.footer-logo {
+  margin-top: -130px;
+  position: static;
+}
+
+.right-col,
+.left-col {
+  width: calc(100% / 2);
+}
+
+button {
+  background-color: transparent;
+  padding: 0.875rem 1.125rem;
+  border: 0.1875rem solid #0282f9;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-bottom .row {
+  padding: 2.5rem 0 2.5rem 0;
+}
