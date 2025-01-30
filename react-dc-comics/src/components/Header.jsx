@@ -1,4 +1,4 @@
-import links from "../components/Data/headerLinks";
+import links from "../Data/headerLinks";
 
 export default function Header() {
   return (
