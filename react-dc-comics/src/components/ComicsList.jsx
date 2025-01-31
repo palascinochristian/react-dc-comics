@@ -1,5 +1,6 @@
 import ComicCard from "./ComicCard";
 import comics from "../Data/comics";
+import Button from "./Button";
 
 export default function ComicsList() {
   return (
@@ -12,6 +13,7 @@ export default function ComicsList() {
             </div>
           );
         })}
+        <Button text="load more" className="more" />
       </div>
     </section>
   );
